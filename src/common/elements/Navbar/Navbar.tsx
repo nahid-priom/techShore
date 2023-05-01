@@ -13,13 +13,15 @@ export default function Navbar() {
     <nav className="bg-white border-gray-200 dark:bg-gray-900 max-w-7xl mx-auto">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <div className="flex items-center flex-1">
-          <Image
-            width={160}
-            height={46}
-            src="/images/logo.png"
-            className="h-8 mr-3"
-            alt="Flowbite Logo"
-          />
+          <Link href="/">
+            <Image
+              width={160}
+              height={46}
+              src="/images/logo.png"
+              className="h-8 mr-3"
+              alt="Flowbite Logo"
+            />
+          </Link>
         </div>
         <button
           data-collapse-toggle="navbar-default"
