@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "@/common/elements/NavBar";
 import HeroSection from "@/modules/LandingPage/components/HeroSection";
 import ServiceSection from "@/modules/LandingPage/components/ServiceSection";
-import Footer from "@/common/elements/NavBar/Footer";
+import Footer from "@/common/elements/Footer";
 
 function HomePage() {
   return (
