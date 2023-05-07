@@ -1,8 +1,10 @@
 import React from "react";
-import NavBar from "@/common/elements/NavBar";
+import NavBar from "@/common/elements/Navbar";
 import HeroSection from "@/modules/LandingPage/components/HeroSection";
 import ServiceSection from "@/modules/LandingPage/components/ServiceSection";
-import Footer from "@/common/elements/NavBar/Footer";
+import WorkSection from "@/modules/LandingPage/components/WorkSection/WorkSection";
+import FeedbackSection from "@/modules/LandingPage/components/FeedBackSection/FeedbackSection";
+import EstimateSection from "@/modules/LandingPage/components/EstimateSection/EstimateSection";
 
 function HomePage() {
   return (
@@ -14,7 +16,14 @@ function HomePage() {
         image="/src/image1.png"
       />
       <ServiceSection />
-      <Footer />
+      <WorkSection />
+      <EstimateSection
+        src="/images/estimate.jpg"
+        alt="estimation"
+        width={1188}
+        height={335}
+        objectFit="cover"
+      />
     </>
   );
 }
