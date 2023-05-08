@@ -5,15 +5,16 @@ interface Props {
   height: string;
   bgColor: string;
   color: string;
+  text: string;
 }
 
-export default function Button({ width, height, bgColor, color }: Props) {
+export default function Button({ width, height, bgColor, color, text }: Props) {
   return (
     <button
-      className={bgColor}
-      style={{ width: width, height: height, color: color }}
+      
+      style={{ width: width, height: height, color: color, backgroundColor: bgColor }}
     >
-      View Projects
+      {text}
     </button>
   );
 }

@@ -17,13 +17,8 @@ function HomePage() {
       />
       <ServiceSection />
       <WorkSection />
-      <EstimateSection
-        src="/images/estimate.jpg"
-        alt="estimation"
-        width={1188}
-        height={335}
-        objectFit="cover"
-      />
+      <FeedbackSection />
+      <EstimateSection />
     </>
   );
 }

@@ -3,9 +3,24 @@ import React from "react";
 
 export default function WorkSection() {
   return (
-    <div className="bg-gray-300 w-full mt-20 " style={{ height: "3300px" }}>
+    <div
+      className="bg-gray-100 w-full mt-20 relative overflow-hidden"
+      style={{ height: "3300px" }}
+    >
+      <div
+        className="w-2/4 h-44 bg-white absolute -top-20 -left-10 "
+        style={{ rotate: "-10deg" }}
+      ></div>
+      <div
+        className="w-2/4 h-44 bg-white absolute -top-20 -right-10 "
+        style={{ rotate: "10deg" }}
+      ></div>
+      <div
+        className="w-full h-36 bg-white absolute -top-28 -right-10 "
+        
+      ></div>
       <h1
-        className="text-center text-3xl font-extrabold pt-20"
+        className="text-center text-3xl font-extrabold pt-32"
         style={{ color: "#3F3E3E" }}
       >
         OUR WORKS
