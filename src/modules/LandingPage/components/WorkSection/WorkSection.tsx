@@ -4,8 +4,8 @@ import React from "react";
 export default function WorkSection() {
   return (
     <div
-      className="bg-gray-100 w-full mt-20 relative overflow-hidden"
-      style={{ height: "3300px" }}
+      className="bg-gray-100 w-full h-full mt-20 relative overflow-hidden"
+      
     >
       <div
         className="w-2/4 h-44 bg-white absolute -top-20 -left-10 "

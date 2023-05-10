@@ -1,7 +1,7 @@
 export const FeedbackData = [
     {
         id:1,
-        src:"/images/Fahim.jpg",
+        src:"/images/priom.jpg",
         alt:"Priom",
         review:"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
         name:"Nahid Ferdous Priom",
@@ -25,7 +25,7 @@ export const FeedbackData = [
     },
     {
         id:4,
-        src:"/images/Fahim.jpg",
+        src:"/images/priom.jpg",
         alt:"Priom",
         review:"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
         name:"Nahid Ferdous Priom",

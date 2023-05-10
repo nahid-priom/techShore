@@ -11,30 +11,49 @@ const settings = {
   autoplay: true,
   autoplaySpeed: 2000,
   pauseOnHover: true,
+  responsive: [
+    {
+      breakpoint: 640,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      },
+    },
+  ],
 };
 export default function FeedbackSection() {
   return (
     <div>
       <h1
-        className="text-center text-3xl font-extrabold pt-20 pb-10"
+        className="text-center text-xl font-extrabold pt-20 pb-10 px-10 md:text-2xl xl:text-3xl"
         style={{ color: "#3F3E3E" }}
       >
         WHAT OUR CLIENT SAYS ABOUT US?
       </h1>
-      <div className="w-full px-28">
+      <div className="w-full px-4 md:px-8 lg:px-16 xl:px-28   ">
         <Slider {...settings}>
           {FeedbackData.map((data, index) => {
             return (
               <div key={index}>
                 <div>
-                  <div className="rounded-xl mx-4 my-12 bg-gray-100 w-88 h-80 flex flex-col justify-center px-4 relative">
+                  <div className="rounded-xl sm:mx-4 my-12 bg-gray-100 w-88 h-80 flex flex-col justify-center px-4 relative">
                     <Image
                       src="/images/quote.png"
                       alt="web icon"
                       width={50}
                       height={50}
-                      style={{position: "absolute", top: "-25px", left: "25px"}}
-                      
+                      style={{
+                        position: "absolute",
+                        top: "-25px",
+                        left: "25px",
+                      }}
                     ></Image>
                     <p className="text-sm py-8 text-gray-600">{data.review}</p>
                     <div className="flex items-center mx-8">
