@@ -5,6 +5,7 @@ import ServiceSection from "@/modules/LandingPage/components/ServiceSection";
 import WorkSection from "@/modules/LandingPage/components/WorkSection/WorkSection";
 import FeedbackSection from "@/modules/LandingPage/components/FeedBackSection/FeedbackSection";
 import EstimateSection from "@/modules/LandingPage/components/EstimateSection/EstimateSection";
+import Footer from "@/common/elements/Footer";
 
 function HomePage() {
   return (
