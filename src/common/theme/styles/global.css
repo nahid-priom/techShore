@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .hero-bg-img {
   background-image: url("/images/hero.png");
     background-size: cover;
@@ -25,4 +24,9 @@
     mix-blend-mode: multiply; /* this will darken the background */
 }
 
+.bg-custom {
+  background-image: url('/images/estimate.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
