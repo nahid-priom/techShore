@@ -1,4 +1,5 @@
 import type { AppProps } from "next/app";
+import "@/common/theme/styles/global.css";
 import { Barlow } from "next/font/google";
 
 const ralewayFont = Barlow({
