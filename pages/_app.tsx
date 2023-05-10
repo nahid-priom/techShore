@@ -1,5 +1,6 @@
 import type { AppProps } from "next/app";
 import { Barlow } from "next/font/google";
+import "@/common/theme/styles/global.css";
 
 const ralewayFont = Barlow({
   weight: ["300", "400", "500", "600", "900"],

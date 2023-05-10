@@ -9,9 +9,10 @@ function HomePage() {
     <>
       <NavBar />
       <HeroSection
-        title="This is title"
-        subTitle="THis is a subtitile"
-        image="/src/image1.png"
+        title="WE CREATE 
+        MODERN &
+        MINIMAL WEBSITE"
+        subTitle="A small river named Duden flows by their place and supplies it with the necessary regelialia."
       />
       <ServiceSection />
       <Footer />

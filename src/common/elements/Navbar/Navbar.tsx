@@ -3,7 +3,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 
 export default function Navbar() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(true);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
