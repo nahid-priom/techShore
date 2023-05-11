@@ -16,8 +16,8 @@ export default function HeroSection({ title, subTitle }: Props) {
         className="w-3/4 h-44 bg-white absolute -bottom-28 -right-10 "
         style={{ rotate: "-10deg" }}
       ></div>
-      <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 relative">
-        <div className="mr-auto place-self-center lg:col-span-7 z-10">
+      <div className="grid max-w-screen-xl px-4 py-8 my-20 lg:my-0 lg:mx-12  mx-4 lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 relative">
+        <div className="mr-auto place-self-center  lg:col-span-7 z-10">
           <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white">
             {title}
           </h1>
