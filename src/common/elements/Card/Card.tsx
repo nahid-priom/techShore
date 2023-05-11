@@ -14,14 +14,16 @@ export default function Card({ title, subtitle, src, flexDirection }: Props) {
   return (
     <div
       className={`flex flex-col sm:flex-${flexDirection} items-center justify-arround mt-12 sm:px-8 md:px-12 lg:px-20 xl:px-32 `}
+
+
     >
       <Image
         src={src}
         alt="web development"
+
         width={300}
         height={550}
         style={{ borderRadius: "10px" }}
-        className=""
       ></Image>
       <div className="lg:pl-16 md:pl-8">
         <h1 className="text-2xl  lg:text-4xl text-center sm:text-left sm:px-4 mt-8 pb-2">{title}</h1>
@@ -35,6 +37,9 @@ export default function Card({ title, subtitle, src, flexDirection }: Props) {
             text="View Projects"
           />
         </div>
+
+        
+     
       </div>
     </div>
   );
